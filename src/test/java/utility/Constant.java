@@ -1,7 +1,7 @@
 package utility;
 
 public class Constant {
-	public static final String chromeDriverPath = "D:\\Software\\chromedriver_99\\chromedriver.exe";
+	public static final String chromeDriverPath = "drivers\\chromedriver99.exe";
 	//D:\Software\chromedriver_99
 	public static final String orangeHrmUrl = "https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials";
 	public static final String username="Admin";

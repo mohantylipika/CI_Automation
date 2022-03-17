@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="testCases.TC_DeleteJobTitle">
+        <methods>
+          <include name="afterExecution"/>
+          <include name="DeleteJobTitleValidation"/>
+          <include name="beforeExecution"/>
+        </methods>
+      </class> <!-- testCases.TC_DeleteJobTitle -->
+      <class name="testCases.TC_LoginLogOut">
+        <methods>
+          <include name="afterExecution"/>
+          <include name="beforeExecution"/>
+        </methods>
+      </class> <!-- testCases.TC_LoginLogOut -->
+      <class name="testCases.TC_UserSearch">
+        <methods>
+          <include name="afterExecution"/>
+          <include name="beforeExecution"/>
+        </methods>
+      </class> <!-- testCases.TC_UserSearch -->
+      <class name="testCases.TC_AddJobTitle">
+        <methods>
+          <include name="afterExecution"/>
+          <include name="beforeExecution"/>
+        </methods>
+      </class> <!-- testCases.TC_AddJobTitle -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

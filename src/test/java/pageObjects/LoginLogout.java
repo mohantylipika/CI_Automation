@@ -2,7 +2,7 @@ package pageObjects;
 
 import org.openqa.selenium.By;
 
-import utility.TestBase;
+import testBase.TestBase;
 
 public class LoginLogout {
 

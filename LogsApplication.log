@@ -1,0 +1,6 @@
+INFO    2022-03-22 17:55:34,262 [main] devpinoyLogger  - Browser is selected : chrome
+INFO    2022-03-22 17:55:36,226 [main] devpinoyLogger  - Chrome driver is opened
+INFO    2022-03-22 17:55:42,926 [main] devpinoyLogger  - Window is maximized now
+INFO    2022-03-22 17:55:42,941 [main] devpinoyLogger  - Implicit Wait has been set
+INFO    2022-03-22 17:55:42,941 [main] devpinoyLogger  - URL is opened
+INFO    2022-03-22 17:55:59,630 [main] devpinoyLogger  - chromeis closed

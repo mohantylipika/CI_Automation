@@ -2,7 +2,7 @@ package pageObjects.admin.job;
 
 import org.openqa.selenium.By;
 
-import utility.TestBase;
+import testBase.TestBase;
 
 public class Job {
 	public static By Job = By.xpath("//a[@id='menu_admin_Job']");

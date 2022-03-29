@@ -2,8 +2,8 @@ package pageObjects.admin.usermanagement;
 
 import org.openqa.selenium.By;
 
+import testBase.TestBase;
 import utility.Constant;
-import utility.TestBase;
 
 public class Users {
 	public static By admin = By.xpath("//b[contains(text(),'Admin')]");
@@ -19,10 +19,14 @@ public class Users {
 	public static void clickUserManagement() {
 		TestBase.driver.findElement(usermanagement).click();
 	}
-	public static void clickUserName() {
-		TestBase.driver.findElement(username).click();
+	public static void clearUserName() {
+		//TestBase.driver.findElement(username).click();
+		TestBase.driver.findElement(username).clear();
 	}
-	public static void clickUserNameSearch() {
-		TestBase.driver.findElement(usernamesearch).sendKeys(Constant.TypeUsernamesearch);
+	public static void EnterUsername(String username) {
+		TestBase.driver.findElement(usernamesearch).sendKeys(username);
+	}
+	public static void clickSearchButton() {
+		TestBase.driver.findElement(search).click();
 	}
 }

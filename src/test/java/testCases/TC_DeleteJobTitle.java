@@ -7,27 +7,30 @@ import org.testng.annotations.Test;
 import pageObjects.admin.Admin;
 import pageObjects.admin.job.Job;
 import pageObjects.admin.job.JobTitle;
-import utility.TestBase;
+import testBase.TestBase;
 
 public class TC_DeleteJobTitle extends TestBase {
 
 	@Test
 	public void DeleteJobTitleValidation() throws InterruptedException {
 
+		l.info("********************** Delete Job Tilte  *************************************");
 		Admin.clickAdmin();
+		l.info("Clicked on Admin");
 		Job.clickJob();
+		l.info("Clicked on Job");
 		JobTitle.clickJobTitles();
+		l.info("Clicked on Job Title");
 		JobTitle.selectCheckBox();
+		l.info("Clicked on the check box to be deleted");
 		JobTitle.clickDeleButton();
+		l.info("Clicked on Delete button");
 		JobTitle.clickOkButton();
+		l.info("Clicked on OK button on the pop up");
 		// driver.findElement(By.xpath("//*[@id=\"deleteConfModal\"]/div[2]"));
 		Thread.sleep(3000);
 		Alert simpleAlert = driver.switchTo().alert();
 		simpleAlert.accept();
-		
-
-//		JobTitle.accessAlert();
-
 		sassert.assertAll();
 	}
 }

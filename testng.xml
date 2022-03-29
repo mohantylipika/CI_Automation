@@ -8,7 +8,6 @@
 			<!--class name="testCases.TC_DeleteJobTitle" -->
 			<class name="testCases.TC_LoginLogOut" />
 			<class name="testCases.TC_PayGrade" />
-
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

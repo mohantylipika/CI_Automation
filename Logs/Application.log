@@ -196,3 +196,111 @@ INFO    2022-03-29 08:10:10,808 [main] devpinoyLogger  - Clicked on Save button
 INFO    2022-03-29 08:10:10,869 [main] devpinoyLogger  - Again clicked on Job
 INFO    2022-03-29 08:10:11,362 [main] devpinoyLogger  - Again clicked on Pay Grade option
 INFO    2022-03-29 08:10:13,057 [main] devpinoyLogger  - chrome is closed
+INFO    2022-03-29 15:58:07,045 [main] devpinoyLogger  - Browser is selected : chrome
+INFO    2022-03-29 15:58:10,909 [main] devpinoyLogger  - Chrome browser is opened
+INFO    2022-03-29 15:58:16,525 [main] devpinoyLogger  - Window is maximized now
+INFO    2022-03-29 15:58:16,543 [main] devpinoyLogger  - Implicit Wait has been set
+INFO    2022-03-29 15:58:16,543 [main] devpinoyLogger  - URL is opened
+INFO    2022-03-29 15:58:21,004 [main] devpinoyLogger  - ************************* UserSearchValidation   *************************************** 
+INFO    2022-03-29 15:58:26,734 [main] devpinoyLogger  - chrome is closed
+INFO    2022-03-29 15:58:26,743 [main] devpinoyLogger  - Browser is selected : chrome
+INFO    2022-03-29 15:58:27,957 [main] devpinoyLogger  - Chrome browser is opened
+INFO    2022-03-29 15:58:34,344 [main] devpinoyLogger  - Window is maximized now
+INFO    2022-03-29 15:58:34,359 [main] devpinoyLogger  - Implicit Wait has been set
+INFO    2022-03-29 15:58:34,360 [main] devpinoyLogger  - URL is opened
+INFO    2022-03-29 15:58:38,604 [main] devpinoyLogger  - *************************************AddJobTitleValidation***********************************************
+INFO    2022-03-29 15:58:44,354 [main] devpinoyLogger  - chrome is closed
+INFO    2022-03-29 15:58:44,356 [main] devpinoyLogger  - Browser is selected : chrome
+INFO    2022-03-29 15:58:45,490 [main] devpinoyLogger  - Chrome browser is opened
+INFO    2022-03-29 15:58:50,611 [main] devpinoyLogger  - Window is maximized now
+INFO    2022-03-29 15:58:50,625 [main] devpinoyLogger  - Implicit Wait has been set
+INFO    2022-03-29 15:58:50,625 [main] devpinoyLogger  - URL is opened
+INFO    2022-03-29 15:58:55,903 [main] devpinoyLogger  - ********************** Delete Job Tilte  *************************************
+INFO    2022-03-29 15:59:01,653 [main] devpinoyLogger  - chrome is closed
+INFO    2022-03-29 15:59:01,657 [main] devpinoyLogger  - Browser is selected : chrome
+INFO    2022-03-29 15:59:02,775 [main] devpinoyLogger  - Chrome browser is opened
+INFO    2022-03-29 15:59:09,258 [main] devpinoyLogger  - Window is maximized now
+INFO    2022-03-29 15:59:09,271 [main] devpinoyLogger  - Implicit Wait has been set
+INFO    2022-03-29 15:59:09,271 [main] devpinoyLogger  - URL is opened
+INFO    2022-03-29 15:59:15,169 [main] devpinoyLogger  - **********************************   LoginLogOutValidation  **************************
+INFO    2022-03-29 15:59:15,170 [main] devpinoyLogger  - Expected URL captured before login
+INFO    2022-03-29 15:59:15,175 [main] devpinoyLogger  - Actual URL captured after login
+INFO    2022-03-29 15:59:15,278 [main] devpinoyLogger  - Clicked on WelCome area
+INFO    2022-03-29 15:59:16,747 [main] devpinoyLogger  - Clicked on Logout button
+INFO    2022-03-29 15:59:16,748 [main] devpinoyLogger  - Expected URL captured after logout
+INFO    2022-03-29 15:59:16,752 [main] devpinoyLogger  - Actual URL captured after logout
+INFO    2022-03-29 15:59:17,404 [main] devpinoyLogger  - chrome is closed
+INFO    2022-03-29 15:59:17,407 [main] devpinoyLogger  - Browser is selected : chrome
+INFO    2022-03-29 15:59:18,552 [main] devpinoyLogger  - Chrome browser is opened
+INFO    2022-03-29 15:59:23,683 [main] devpinoyLogger  - Window is maximized now
+INFO    2022-03-29 15:59:23,698 [main] devpinoyLogger  - Implicit Wait has been set
+INFO    2022-03-29 15:59:23,699 [main] devpinoyLogger  - URL is opened
+INFO    2022-03-29 15:59:29,289 [main] devpinoyLogger  - ********************  PayGradeValidation    ****************************
+INFO    2022-03-29 15:59:35,062 [main] devpinoyLogger  - chrome is closed
+INFO    2022-03-29 20:54:38,807 [main] devpinoyLogger  - Browser is selected : chrome
+INFO    2022-03-29 20:54:40,910 [main] devpinoyLogger  - Chrome browser is opened
+INFO    2022-03-29 20:54:44,049 [main] devpinoyLogger  - Window is maximized now
+INFO    2022-03-29 20:54:44,064 [main] devpinoyLogger  - Implicit Wait has been set
+INFO    2022-03-29 20:54:44,064 [main] devpinoyLogger  - URL is opened
+INFO    2022-03-29 20:54:48,848 [main] devpinoyLogger  - ************************* UserSearchValidation   *************************************** 
+INFO    2022-03-29 20:54:50,717 [main] devpinoyLogger  - Admin option is clicked
+INFO    2022-03-29 20:54:50,815 [main] devpinoyLogger  - UserName search box is cleared
+INFO    2022-03-29 20:54:50,931 [main] devpinoyLogger  - UserName is entered: Admin
+INFO    2022-03-29 20:54:51,536 [main] devpinoyLogger  - Search button is clicked
+INFO    2022-03-29 20:54:53,756 [main] devpinoyLogger  - chrome is closed
+INFO    2022-03-29 20:54:53,759 [main] devpinoyLogger  - Browser is selected : chrome
+INFO    2022-03-29 20:54:55,000 [main] devpinoyLogger  - Chrome browser is opened
+INFO    2022-03-29 20:54:58,248 [main] devpinoyLogger  - Window is maximized now
+INFO    2022-03-29 20:54:58,262 [main] devpinoyLogger  - Implicit Wait has been set
+INFO    2022-03-29 20:54:58,262 [main] devpinoyLogger  - URL is opened
+INFO    2022-03-29 20:55:03,138 [main] devpinoyLogger  - *************************************AddJobTitleValidation***********************************************
+INFO    2022-03-29 20:55:04,754 [main] devpinoyLogger  - Admin option is clicked
+INFO    2022-03-29 20:55:04,848 [main] devpinoyLogger  - Job option is clicked
+INFO    2022-03-29 20:55:05,647 [main] devpinoyLogger  - Job Title is clicked
+INFO    2022-03-29 20:55:06,369 [main] devpinoyLogger  - Add button is clicked
+INFO    2022-03-29 20:55:06,456 [main] devpinoyLogger  - New job title is enterd : QA_Lead_857100
+INFO    2022-03-29 20:55:06,578 [main] devpinoyLogger  - JobDescription is entered
+INFO    2022-03-29 20:55:06,698 [main] devpinoyLogger  - Note is entered
+INFO    2022-03-29 20:55:07,588 [main] devpinoyLogger  - Save button is clicked
+INFO    2022-03-29 20:55:10,138 [main] devpinoyLogger  - chrome is closed
+INFO    2022-03-29 20:55:10,139 [main] devpinoyLogger  - Browser is selected : chrome
+INFO    2022-03-29 20:55:11,260 [main] devpinoyLogger  - Chrome browser is opened
+INFO    2022-03-29 20:55:14,598 [main] devpinoyLogger  - Window is maximized now
+INFO    2022-03-29 20:55:14,612 [main] devpinoyLogger  - Implicit Wait has been set
+INFO    2022-03-29 20:55:14,612 [main] devpinoyLogger  - URL is opened
+INFO    2022-03-29 20:55:19,211 [main] devpinoyLogger  - ********************** Delete Job Tilte  *************************************
+INFO    2022-03-29 20:55:20,847 [main] devpinoyLogger  - Clicked on Admin
+INFO    2022-03-29 20:55:20,908 [main] devpinoyLogger  - Clicked on Job
+INFO    2022-03-29 20:55:21,690 [main] devpinoyLogger  - Clicked on Job Title
+INFO    2022-03-29 20:55:21,798 [main] devpinoyLogger  - Clicked on the check box to be deleted
+INFO    2022-03-29 20:55:21,875 [main] devpinoyLogger  - Clicked on Delete button
+INFO    2022-03-29 20:55:21,891 [main] devpinoyLogger  - Clicked on OK button on the pop up
+INFO    2022-03-29 20:55:26,055 [main] devpinoyLogger  - chrome is closed
+INFO    2022-03-29 20:55:26,059 [main] devpinoyLogger  - Browser is selected : chrome
+INFO    2022-03-29 20:55:27,205 [main] devpinoyLogger  - Chrome browser is opened
+INFO    2022-03-29 20:55:30,654 [main] devpinoyLogger  - Window is maximized now
+INFO    2022-03-29 20:55:30,668 [main] devpinoyLogger  - Implicit Wait has been set
+INFO    2022-03-29 20:55:30,668 [main] devpinoyLogger  - URL is opened
+INFO    2022-03-29 20:55:35,329 [main] devpinoyLogger  - **********************************   LoginLogOutValidation  **************************
+INFO    2022-03-29 20:55:35,329 [main] devpinoyLogger  - Expected URL captured before login
+INFO    2022-03-29 20:55:35,334 [main] devpinoyLogger  - Actual URL captured after login
+INFO    2022-03-29 20:55:35,396 [main] devpinoyLogger  - Clicked on WelCome area
+INFO    2022-03-29 20:55:36,204 [main] devpinoyLogger  - Clicked on Logout button
+INFO    2022-03-29 20:55:36,204 [main] devpinoyLogger  - Expected URL captured after logout
+INFO    2022-03-29 20:55:36,208 [main] devpinoyLogger  - Actual URL captured after logout
+INFO    2022-03-29 20:55:36,839 [main] devpinoyLogger  - chrome is closed
+INFO    2022-03-29 20:55:36,843 [main] devpinoyLogger  - Browser is selected : chrome
+INFO    2022-03-29 20:55:37,999 [main] devpinoyLogger  - Chrome browser is opened
+INFO    2022-03-29 20:55:41,340 [main] devpinoyLogger  - Window is maximized now
+INFO    2022-03-29 20:55:41,354 [main] devpinoyLogger  - Implicit Wait has been set
+INFO    2022-03-29 20:55:41,354 [main] devpinoyLogger  - URL is opened
+INFO    2022-03-29 20:55:46,270 [main] devpinoyLogger  - ********************  PayGradeValidation    ****************************
+INFO    2022-03-29 20:55:47,932 [main] devpinoyLogger  - Clicked on Admin
+INFO    2022-03-29 20:55:48,018 [main] devpinoyLogger  - Clicked on Job
+INFO    2022-03-29 20:55:48,812 [main] devpinoyLogger  - Clicked on Pay Grade option
+INFO    2022-03-29 20:55:49,633 [main] devpinoyLogger  - Clicked on Add button
+INFO    2022-03-29 20:55:49,743 [main] devpinoyLogger  - Entered new Pay Grade value
+INFO    2022-03-29 20:55:50,642 [main] devpinoyLogger  - Clicked on Save button
+INFO    2022-03-29 20:55:50,700 [main] devpinoyLogger  - Again clicked on Job
+INFO    2022-03-29 20:55:51,275 [main] devpinoyLogger  - Again clicked on Pay Grade option
+INFO    2022-03-29 20:55:53,501 [main] devpinoyLogger  - chrome is closed

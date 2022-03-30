@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="75253" started-at="2022-03-29T08:08:57 IST" finished-at="2022-03-29T08:10:13 IST">
+  <suite name="Suite" duration-ms="74781" started-at="2022-03-29T20:54:38 IST" finished-at="2022-03-29T20:55:53 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="75253" started-at="2022-03-29T08:08:57 IST" finished-at="2022-03-29T08:10:13 IST">
+    <test name="Test" duration-ms="74781" started-at="2022-03-29T20:54:38 IST" finished-at="2022-03-29T20:55:53 IST">
       <class name="testCases.TC_UserSearch">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testCases.TC_UserSearch@37d31475]" name="openBrowser" is-config="true" duration-ms="9428" started-at="2022-03-29T08:08:57 IST" finished-at="2022-03-29T08:09:07 IST">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testCases.TC_UserSearch@37d31475]" name="openBrowser" is-config="true" duration-ms="10085" started-at="2022-03-29T20:54:38 IST" finished-at="2022-03-29T20:54:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="UserSearchValidation()[pri:0, instance:testCases.TC_UserSearch@37d31475]" name="UserSearchValidation" duration-ms="5018" started-at="2022-03-29T08:09:07 IST" finished-at="2022-03-29T08:09:12 IST">
+        <test-method status="PASS" signature="UserSearchValidation()[pri:0, instance:testCases.TC_UserSearch@37d31475]" name="UserSearchValidation" duration-ms="4255" started-at="2022-03-29T20:54:48 IST" finished-at="2022-03-29T20:54:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserSearchValidation -->
-        <test-method status="PASS" signature="afterExecution()[pri:0, instance:testCases.TC_UserSearch@37d31475]" name="afterExecution" is-config="true" duration-ms="644" started-at="2022-03-29T08:09:12 IST" finished-at="2022-03-29T08:09:12 IST">
+        <test-method status="PASS" signature="afterExecution()[pri:0, instance:testCases.TC_UserSearch@37d31475]" name="afterExecution" is-config="true" duration-ms="657" started-at="2022-03-29T20:54:53 IST" finished-at="2022-03-29T20:54:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterExecution -->
       </class> <!-- testCases.TC_UserSearch -->
       <class name="testCases.TC_PayGrade">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testCases.TC_PayGrade@ed9d034]" name="openBrowser" is-config="true" duration-ms="8560" started-at="2022-03-29T08:09:58 IST" finished-at="2022-03-29T08:10:06 IST">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testCases.TC_PayGrade@ed9d034]" name="openBrowser" is-config="true" duration-ms="9428" started-at="2022-03-29T20:55:36 IST" finished-at="2022-03-29T20:55:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="PayGradeValidation()[pri:0, instance:testCases.TC_PayGrade@ed9d034]" name="PayGradeValidation" duration-ms="5837" started-at="2022-03-29T08:10:06 IST" finished-at="2022-03-29T08:10:12 IST">
+        <test-method status="PASS" signature="PayGradeValidation()[pri:0, instance:testCases.TC_PayGrade@ed9d034]" name="PayGradeValidation" duration-ms="6572" started-at="2022-03-29T20:55:46 IST" finished-at="2022-03-29T20:55:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PayGradeValidation -->
-        <test-method status="PASS" signature="afterExecution()[pri:0, instance:testCases.TC_PayGrade@ed9d034]" name="afterExecution" is-config="true" duration-ms="645" started-at="2022-03-29T08:10:12 IST" finished-at="2022-03-29T08:10:13 IST">
+        <test-method status="PASS" signature="afterExecution()[pri:0, instance:testCases.TC_PayGrade@ed9d034]" name="afterExecution" is-config="true" duration-ms="661" started-at="2022-03-29T20:55:52 IST" finished-at="2022-03-29T20:55:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterExecution -->
       </class> <!-- testCases.TC_PayGrade -->
       <class name="testCases.TC_DeleteJobTitle">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testCases.TC_DeleteJobTitle@76a3e297]" name="openBrowser" is-config="true" duration-ms="8728" started-at="2022-03-29T08:09:29 IST" finished-at="2022-03-29T08:09:38 IST">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testCases.TC_DeleteJobTitle@76a3e297]" name="openBrowser" is-config="true" duration-ms="9072" started-at="2022-03-29T20:55:10 IST" finished-at="2022-03-29T20:55:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="FAIL" signature="DeleteJobTitleValidation()[pri:0, instance:testCases.TC_DeleteJobTitle@76a3e297]" name="DeleteJobTitleValidation" duration-ms="6690" started-at="2022-03-29T08:09:38 IST" finished-at="2022-03-29T08:09:45 IST">
+        <test-method status="FAIL" signature="DeleteJobTitleValidation()[pri:0, instance:testCases.TC_DeleteJobTitle@76a3e297]" name="DeleteJobTitleValidation" duration-ms="5708" started-at="2022-03-29T20:55:19 IST" finished-at="2022-03-29T20:55:24 IST">
           <exception class="org.openqa.selenium.NoAlertPresentException">
             <message>
               <![CDATA[no such alert
@@ -47,8 +47,8 @@
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-2A2K6UEC', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\lipik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57633}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: db9d4460b316b6bd25020dae6e429aa7]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\lipik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62214}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 45c312a97833f4a8c762a0a468a8a37c]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
@@ -56,8 +56,8 @@ Session ID: db9d4460b316b6bd25020dae6e429aa7]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-2A2K6UEC', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\lipik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57633}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: db9d4460b316b6bd25020dae6e429aa7
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\lipik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62214}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 45c312a97833f4a8c762a0a468a8a37c
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -105,35 +105,35 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeleteJobTitleValidation -->
-        <test-method status="PASS" signature="afterExecution()[pri:0, instance:testCases.TC_DeleteJobTitle@76a3e297]" name="afterExecution" is-config="true" duration-ms="1178" started-at="2022-03-29T08:09:45 IST" finished-at="2022-03-29T08:09:46 IST">
+        <test-method status="PASS" signature="afterExecution()[pri:0, instance:testCases.TC_DeleteJobTitle@76a3e297]" name="afterExecution" is-config="true" duration-ms="1131" started-at="2022-03-29T20:55:24 IST" finished-at="2022-03-29T20:55:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterExecution -->
       </class> <!-- testCases.TC_DeleteJobTitle -->
       <class name="testCases.TC_LoginLogOut">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testCases.TC_LoginLogOut@4d3167f4]" name="openBrowser" is-config="true" duration-ms="8720" started-at="2022-03-29T08:09:46 IST" finished-at="2022-03-29T08:09:55 IST">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testCases.TC_LoginLogOut@4d3167f4]" name="openBrowser" is-config="true" duration-ms="9272" started-at="2022-03-29T20:55:26 IST" finished-at="2022-03-29T20:55:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="LoginLogOutValidation()[pri:0, instance:testCases.TC_LoginLogOut@4d3167f4]" name="LoginLogOutValidation" duration-ms="2171" started-at="2022-03-29T08:09:55 IST" finished-at="2022-03-29T08:09:57 IST">
+        <test-method status="PASS" signature="LoginLogOutValidation()[pri:0, instance:testCases.TC_LoginLogOut@4d3167f4]" name="LoginLogOutValidation" duration-ms="880" started-at="2022-03-29T20:55:35 IST" finished-at="2022-03-29T20:55:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginLogOutValidation -->
-        <test-method status="PASS" signature="afterExecution()[pri:0, instance:testCases.TC_LoginLogOut@4d3167f4]" name="afterExecution" is-config="true" duration-ms="632" started-at="2022-03-29T08:09:57 IST" finished-at="2022-03-29T08:09:58 IST">
+        <test-method status="PASS" signature="afterExecution()[pri:0, instance:testCases.TC_LoginLogOut@4d3167f4]" name="afterExecution" is-config="true" duration-ms="630" started-at="2022-03-29T20:55:36 IST" finished-at="2022-03-29T20:55:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterExecution -->
       </class> <!-- testCases.TC_LoginLogOut -->
       <class name="testCases.TC_AddJobTitle">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testCases.TC_AddJobTitle@3aeaafa6]" name="openBrowser" is-config="true" duration-ms="8873" started-at="2022-03-29T08:09:12 IST" finished-at="2022-03-29T08:09:21 IST">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testCases.TC_AddJobTitle@3aeaafa6]" name="openBrowser" is-config="true" duration-ms="9378" started-at="2022-03-29T20:54:53 IST" finished-at="2022-03-29T20:55:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="AddJobTitleValidation()[pri:0, instance:testCases.TC_AddJobTitle@3aeaafa6]" name="AddJobTitleValidation" duration-ms="7412" started-at="2022-03-29T08:09:21 IST" finished-at="2022-03-29T08:09:29 IST">
+        <test-method status="PASS" signature="AddJobTitleValidation()[pri:0, instance:testCases.TC_AddJobTitle@3aeaafa6]" name="AddJobTitleValidation" duration-ms="6349" started-at="2022-03-29T20:55:03 IST" finished-at="2022-03-29T20:55:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddJobTitleValidation -->
-        <test-method status="PASS" signature="afterExecution()[pri:0, instance:testCases.TC_AddJobTitle@3aeaafa6]" name="afterExecution" is-config="true" duration-ms="667" started-at="2022-03-29T08:09:29 IST" finished-at="2022-03-29T08:09:29 IST">
+        <test-method status="PASS" signature="afterExecution()[pri:0, instance:testCases.TC_AddJobTitle@3aeaafa6]" name="afterExecution" is-config="true" duration-ms="651" started-at="2022-03-29T20:55:09 IST" finished-at="2022-03-29T20:55:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterExecution -->

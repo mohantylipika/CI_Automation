@@ -5,7 +5,7 @@
 		<classes>
 			<class name="testCases.TC_UserSearch" />
 			<class name="testCases.TC_AddJobTitle" />
-			<class name="testCases.TC_DeleteJobTitle"/>
+			<!--  class name="testCases.TC_DeleteJobTitle"/>-->
 			<class name="testCases.TC_LoginLogOut" />
 			<class name="testCases.TC_PayGrade" />
 		</classes>

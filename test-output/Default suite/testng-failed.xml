@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC_PayGrade">
+      <class name="testCases.TC_DeleteJobTitle">
         <methods>
           <include name="afterExecution"/>
-          <include name="PayGradeValidation"/>
+          <include name="DeleteJobTitleValidation"/>
           <include name="openBrowser"/>
         </methods>
-      </class> <!-- testCases.TC_PayGrade -->
+      </class> <!-- testCases.TC_DeleteJobTitle -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

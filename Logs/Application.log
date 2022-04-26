@@ -358,3 +358,31 @@ INFO    2022-03-30 10:12:30,893 [main] devpinoyLogger  - Clicked on Save button
 INFO    2022-03-30 10:12:30,949 [main] devpinoyLogger  - Again clicked on Job
 INFO    2022-03-30 10:12:31,540 [main] devpinoyLogger  - Again clicked on Pay Grade option
 INFO    2022-03-30 10:12:33,826 [main] devpinoyLogger  - chrome is closed
+INFO    2022-04-26 17:23:17,544 [main] devpinoyLogger  - Browser is selected : chrome
+INFO    2022-04-26 17:23:28,218 [main] devpinoyLogger  - Chrome browser is opened
+INFO    2022-04-26 17:23:31,976 [main] devpinoyLogger  - Window is maximized now
+INFO    2022-04-26 17:23:31,990 [main] devpinoyLogger  - Implicit Wait has been set
+INFO    2022-04-26 17:23:31,990 [main] devpinoyLogger  - URL is opened
+INFO    2022-04-26 17:23:36,448 [main] devpinoyLogger  - *************************************AddJobTitleValidation***********************************************
+INFO    2022-04-26 17:23:38,125 [main] devpinoyLogger  - Admin option is clicked
+INFO    2022-04-26 17:23:38,188 [main] devpinoyLogger  - Job option is clicked
+INFO    2022-04-26 17:23:38,956 [main] devpinoyLogger  - Job Title is clicked
+INFO    2022-04-26 17:23:40,400 [main] devpinoyLogger  - Add button is clicked
+INFO    2022-04-26 17:23:40,484 [main] devpinoyLogger  - New job title is enterd : QA_Lead_518100
+INFO    2022-04-26 17:23:40,561 [main] devpinoyLogger  - JobDescription is entered
+INFO    2022-04-26 17:23:40,619 [main] devpinoyLogger  - Note is entered
+INFO    2022-04-26 17:23:41,513 [main] devpinoyLogger  - Save button is clicked
+INFO    2022-04-26 17:23:43,798 [main] devpinoyLogger  - chrome is closed
+INFO    2022-04-26 17:25:06,897 [main] devpinoyLogger  - Browser is selected : chrome
+INFO    2022-04-26 17:25:08,768 [main] devpinoyLogger  - Chrome browser is opened
+INFO    2022-04-26 17:25:12,192 [main] devpinoyLogger  - Window is maximized now
+INFO    2022-04-26 17:25:12,205 [main] devpinoyLogger  - Implicit Wait has been set
+INFO    2022-04-26 17:25:12,206 [main] devpinoyLogger  - URL is opened
+INFO    2022-04-26 17:25:16,289 [main] devpinoyLogger  - ********************** Delete Job Tilte  *************************************
+INFO    2022-04-26 17:25:17,859 [main] devpinoyLogger  - Clicked on Admin
+INFO    2022-04-26 17:25:17,910 [main] devpinoyLogger  - Clicked on Job
+INFO    2022-04-26 17:25:18,702 [main] devpinoyLogger  - Clicked on Job Title
+INFO    2022-04-26 17:25:18,759 [main] devpinoyLogger  - Clicked on the check box to be deleted
+INFO    2022-04-26 17:25:18,808 [main] devpinoyLogger  - Clicked on Delete button
+INFO    2022-04-26 17:25:18,818 [main] devpinoyLogger  - Clicked on OK button on the pop up
+INFO    2022-04-26 17:25:22,742 [main] devpinoyLogger  - chrome is closed

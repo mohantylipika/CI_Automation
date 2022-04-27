@@ -1,35 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15919" started-at="2022-04-26T17:25:06 IST" finished-at="2022-04-26T17:25:22 IST">
+  <suite name="Suite" duration-ms="135045" started-at="2022-04-27T10:56:48 IST" finished-at="2022-04-27T10:59:03 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15919" started-at="2022-04-26T17:25:06 IST" finished-at="2022-04-26T17:25:22 IST">
-      <class name="testCases.TC_DeleteJobTitle">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testCases.TC_DeleteJobTitle@3d921e20]" name="openBrowser" is-config="true" duration-ms="9429" started-at="2022-04-26T17:25:06 IST" finished-at="2022-04-26T17:25:16 IST">
+    <test name="Test" duration-ms="135045" started-at="2022-04-27T10:56:48 IST" finished-at="2022-04-27T10:59:03 IST">
+      <class name="testCases.TC_UserSearch">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testCases.TC_UserSearch@37d31475]" name="openBrowser" is-config="true" duration-ms="16557" started-at="2022-04-27T10:56:48 IST" finished-at="2022-04-27T10:57:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="FAIL" signature="DeleteJobTitleValidation()[pri:0, instance:testCases.TC_DeleteJobTitle@3d921e20]" name="DeleteJobTitleValidation" duration-ms="5559" started-at="2022-04-26T17:25:16 IST" finished-at="2022-04-26T17:25:21 IST">
+        <test-method status="PASS" signature="UserSearchValidation()[pri:0, instance:testCases.TC_UserSearch@37d31475]" name="UserSearchValidation" duration-ms="5487" started-at="2022-04-27T10:57:04 IST" finished-at="2022-04-27T10:57:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserSearchValidation -->
+        <test-method status="PASS" signature="afterExecution()[pri:0, instance:testCases.TC_UserSearch@37d31475]" name="afterExecution" is-config="true" duration-ms="650" started-at="2022-04-27T10:57:10 IST" finished-at="2022-04-27T10:57:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterExecution -->
+      </class> <!-- testCases.TC_UserSearch -->
+      <class name="testCases.TC_PayGrade">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testCases.TC_PayGrade@ed9d034]" name="openBrowser" is-config="true" duration-ms="16946" started-at="2022-04-27T10:58:28 IST" finished-at="2022-04-27T10:58:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="PayGradeValidation()[pri:0, instance:testCases.TC_PayGrade@ed9d034]" name="PayGradeValidation" duration-ms="16732" started-at="2022-04-27T10:58:45 IST" finished-at="2022-04-27T10:59:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PayGradeValidation -->
+        <test-method status="PASS" signature="afterExecution()[pri:0, instance:testCases.TC_PayGrade@ed9d034]" name="afterExecution" is-config="true" duration-ms="661" started-at="2022-04-27T10:59:02 IST" finished-at="2022-04-27T10:59:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterExecution -->
+      </class> <!-- testCases.TC_PayGrade -->
+      <class name="testCases.TC_DeleteJobTitle">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testCases.TC_DeleteJobTitle@76a3e297]" name="openBrowser" is-config="true" duration-ms="15870" started-at="2022-04-27T10:57:45 IST" finished-at="2022-04-27T10:58:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="DeleteJobTitleValidation()[pri:0, instance:testCases.TC_DeleteJobTitle@76a3e297]" name="DeleteJobTitleValidation" duration-ms="7887" started-at="2022-04-27T10:58:00 IST" finished-at="2022-04-27T10:58:08 IST">
           <exception class="org.openqa.selenium.NoAlertPresentException">
             <message>
               <![CDATA[no such alert
   (Session info: chrome=100.0.4896.127)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-2A2K6UEC', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+System info: host: 'LAPTOP-2A2K6UEC', ip: '192.168.239.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\lipik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64605}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1700c80d86dd5d6e13e3c3e555f21593]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\lipik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62544}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c5ad856584a382fb0bff7c7865fb2bb]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
   (Session info: chrome=100.0.4896.127)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-2A2K6UEC', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+System info: host: 'LAPTOP-2A2K6UEC', ip: '192.168.239.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\lipik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64605}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1700c80d86dd5d6e13e3c3e555f21593
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\lipik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62544}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c5ad856584a382fb0bff7c7865fb2bb
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -77,11 +105,39 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeleteJobTitleValidation -->
-        <test-method status="PASS" signature="afterExecution()[pri:0, instance:testCases.TC_DeleteJobTitle@3d921e20]" name="afterExecution" is-config="true" duration-ms="895" started-at="2022-04-26T17:25:21 IST" finished-at="2022-04-26T17:25:22 IST">
+        <test-method status="PASS" signature="afterExecution()[pri:0, instance:testCases.TC_DeleteJobTitle@76a3e297]" name="afterExecution" is-config="true" duration-ms="1019" started-at="2022-04-27T10:58:08 IST" finished-at="2022-04-27T10:58:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterExecution -->
       </class> <!-- testCases.TC_DeleteJobTitle -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="testCases.TC_LoginLogOut">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testCases.TC_LoginLogOut@4d3167f4]" name="openBrowser" is-config="true" duration-ms="16483" started-at="2022-04-27T10:58:09 IST" finished-at="2022-04-27T10:58:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="LoginLogOutValidation()[pri:0, instance:testCases.TC_LoginLogOut@4d3167f4]" name="LoginLogOutValidation" duration-ms="1965" started-at="2022-04-27T10:58:26 IST" finished-at="2022-04-27T10:58:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginLogOutValidation -->
+        <test-method status="PASS" signature="afterExecution()[pri:0, instance:testCases.TC_LoginLogOut@4d3167f4]" name="afterExecution" is-config="true" duration-ms="646" started-at="2022-04-27T10:58:28 IST" finished-at="2022-04-27T10:58:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterExecution -->
+      </class> <!-- testCases.TC_LoginLogOut -->
+      <class name="testCases.TC_AddJobTitle">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testCases.TC_AddJobTitle@3aeaafa6]" name="openBrowser" is-config="true" duration-ms="24164" started-at="2022-04-27T10:57:10 IST" finished-at="2022-04-27T10:57:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="AddJobTitleValidation()[pri:0, instance:testCases.TC_AddJobTitle@3aeaafa6]" name="AddJobTitleValidation" duration-ms="9240" started-at="2022-04-27T10:57:35 IST" finished-at="2022-04-27T10:57:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddJobTitleValidation -->
+        <test-method status="PASS" signature="afterExecution()[pri:0, instance:testCases.TC_AddJobTitle@3aeaafa6]" name="afterExecution" is-config="true" duration-ms="664" started-at="2022-04-27T10:57:44 IST" finished-at="2022-04-27T10:57:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterExecution -->
+      </class> <!-- testCases.TC_AddJobTitle -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
